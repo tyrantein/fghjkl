@@ -8,7 +8,7 @@ using namespace std;
 template <class T>
 void bubblesort(T a[], int n)
 {
-	for (int i = n; i > 1; i--)
+	for (int i = n; i > 2; i--)
 		for (int j = 0; j < i - 1; j++)
 			if (a[j] > a[j + 1])
 			{
